@@ -14,7 +14,7 @@ export default function Home() {
 
 {/* Main content */}
 				<div className="logo-container">
-        	<Image
+        	<img
           	className={styles.logo}
           	src="/assets/nith-placeholder.png"
           	alt="nith-placeholder"
