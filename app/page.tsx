@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from './styles/page.module.css';
 
 import Link from 'next/link';
 
@@ -16,7 +16,7 @@ export default function Home() {
 				<div className="logo-container">
         	<Image
           	className={styles.logo}
-          	src='/assets/nith-placeholder.png'
+          	src="/assets/nith-placeholder.png"
           	alt="nith-placeholder"
 						width="800"
 						height="500"
@@ -50,7 +50,7 @@ export default function Home() {
           >
             <Image
               className={styles.logo}
-              src="/globe.svg"
+              src="/assets/globe.svg"
               alt="."
               width={20}
               height={20}
@@ -78,7 +78,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/assets/file.svg"
             alt="."
             width={16}
             height={16}
@@ -92,7 +92,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/instagram.png"
             alt="."
             width={16}
             height={16}
@@ -106,7 +106,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="/assets/globe.svg"
             alt="."
             width={16}
             height={16}
