@@ -21,6 +21,7 @@ export default function Home() {
 						width="800"
 						height="500"
 						objectFit="contain"
+						unoptimized
         	/>
 				</div>
 
