@@ -20,8 +20,6 @@ export default function Home() {
           	alt="nith-placeholder"
 						width="800"
 						height="500"
-						objectFit="contain"
-						unoptimized
         	/>
 				</div>
 
