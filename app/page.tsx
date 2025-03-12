@@ -7,51 +7,12 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-      <footer className={styles.footer}>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          About 
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-					Share
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Become a Star →
-        </a>
-      </footer>
 
+<h1>"Needle in the Hay"</h1>
+<div>A Short Film about Addiction and Friendship</div>
+<h2>Seed & Spark campaign coming June 2025!</h2>
+
+{/* Main content */}
 				<div className="logo-container">
         	<Image
           	className={styles.logo}
@@ -75,7 +36,7 @@ export default function Home() {
 						</Link>
 					</li>
 					<li>
-						<Link href="#">
+						<Link href="https://seedandspark.com/fund/needle-in-the-hay#story">
 							Support the Film
 						</Link>
 					</li>
@@ -98,7 +59,7 @@ export default function Home() {
 						Newsletter	
           </a>
           <a
-            href="#"
+            href="https://seedandspark.com/fund/needle-in-the-hay#story"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.secondary}
@@ -107,10 +68,12 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+{/* The real Footer */}
       <footer className={styles.footer}>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -121,10 +84,10 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
+         	About 
         </a>
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -138,7 +101,7 @@ export default function Home() {
          	Share 
         </a>
         <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://seedandspark.com/fund/needle-in-the-hay#story"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -149,7 +112,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Make our Day →
+          Support →
         </a>
       </footer>
     </div>
