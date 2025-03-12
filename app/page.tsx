@@ -1,7 +1,7 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
 				<div className="logo-container">
         	<Image
           	className={styles.logo}
-          	src="/nith-placeholder.png"
+          	src="/assets/nith-placeholder.png"
           	alt="nith-placeholder"
 						width="800"
 						height="500"
