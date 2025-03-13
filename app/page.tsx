@@ -16,7 +16,7 @@ export default function Home() {
 				<div className="logo-container">
         	<Image
           	className={styles.logo}
-          	src="/assets/nith-placeholder.png"
+          	src="/public/assets/nith-placeholder.png"
           	alt="nith-placeholder"
 						width="800"
 						height="500"
